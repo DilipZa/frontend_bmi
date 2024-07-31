@@ -25,7 +25,7 @@
         const weight = document.getElementById('weight').value;
         const height = document.getElementById('height').value;
 
-        axios.post('http://127.0.0.1:5000/calculate', {
+        axios.post('https://backend-bmi-ruddy.vercel.app/calculate', {
             weight: weight,
             height: height
         })
